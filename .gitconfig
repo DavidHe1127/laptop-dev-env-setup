@@ -1,0 +1,19 @@
+[user]
+        name = David He
+        email = jialhe85@gmail.com
+[alias]
+        st = status
+        ci = commit
+        di = diff
+        pr = pull --rebase
+        pp = push
+        co = checkout
+        br = branch
+        ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        ignore = update-index --assume-unchanged
+        unignore = update-index --no-assume-unchanged
+        zero = !sh -c 'git fetch origin && git reset --hard origin/$1 && git clean -f -d' -
+
+[core]
+[push]
+    default = simple
