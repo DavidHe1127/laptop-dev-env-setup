@@ -1,4 +1,3 @@
-```sh
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
   colorflag="--color"
@@ -34,4 +33,3 @@ alias myip='ifconfig | grep "inet " | grep -v 127.0.0.1'
 
 # page through commands history
 alias history='history | less'
-```
