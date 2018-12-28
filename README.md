@@ -2,8 +2,8 @@
 
 ### Files below need to be copied over to home directory
   * [vimrc](./.vimrc)
-  * [bash_profile](./.bash_profile.md)
-  * [bash_prompt](./.bash_prompt.md)
+  * [bash_profile](./.bash_profile)
+  * [bash_prompt](./.bash_prompt)
   * [gitconfig](./.gitconfig)
 
 ### How to sync sublime text config
