@@ -1,8 +1,7 @@
 # bootstrapping
 
 ### Files below need to be copied over to home directory
-  * `.vimrc`
-
+  * (vimrc)[./.vimrc]
 
 ### How to sync sublime text config
 To sync configs/pkgs onto a fresh sublime:
