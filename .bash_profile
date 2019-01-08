@@ -8,3 +8,8 @@ source ~/.aliases
 if [ -f "$HOME/.bashrc" ]; then
   . "$HOME/.bashrc"
 fi
+
+# now long press and hold will repeat the keys
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+
