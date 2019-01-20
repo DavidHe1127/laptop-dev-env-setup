@@ -17,5 +17,10 @@ To sync configs/pkgs onto a fresh sublime:
 ### Git auto-completion
 Download [bash script](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash). 
 Copy this file to your home directory, and add this to your `.bashrc` file: `source ~/git-completion.bash`.
+
+### Sublime from terminal
+```
+sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/
+```
   
 
