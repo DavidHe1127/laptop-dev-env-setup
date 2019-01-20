@@ -22,5 +22,6 @@ Copy this file to your home directory, and add this to your `.bashrc` file: `sou
 ```
 sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/
 ```
+Then open your projet `subl .`
   
 
