@@ -1,5 +1,5 @@
 # bootstrapping
-This repo provides curated list of tools/configs for you to speed up bootstrapping on a brand new *MAC*
+This repo provides curated list of tools/configs for you to speed up bootstrapping on a brand new **MAC**
 
 ### Files below need to be copied over to home directory
   * [vimrc](./.vimrc)
