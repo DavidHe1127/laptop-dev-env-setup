@@ -5,6 +5,7 @@
   * [bash_profile](./.bash_profile)
   * [bash_prompt](./.bash_prompt)
   * [gitconfig](./.gitconfig)
+  * [aliases](./.aliases)
 
 ### How to sync sublime text config
 To sync configs/pkgs onto a fresh sublime:
