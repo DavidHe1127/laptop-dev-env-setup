@@ -33,4 +33,4 @@ Then open your projet `subl .`
 * [Monosnap](https://monosnap.com/welcome)
 * [Naomi st3 code highlighting](https://packagecontrol.io/packages/Naomi)
 * [quicklook plugin](https://github.com/sindresorhus/quick-look-plugins)
-
+* [Homebrew](https://brew.sh/)
