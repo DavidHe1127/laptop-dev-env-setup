@@ -1,4 +1,5 @@
 # bootstrapping
+This repo provides curated list of tools/configs for you to speed up bootstrapping on a brand new *MAC*
 
 ### Files below need to be copied over to home directory
   * [vimrc](./.vimrc)
@@ -25,7 +26,7 @@ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/
 ```
 Then open your projet `subl .`
   
-### other tooling tips/configs
+### Other tooling tips/configs
 * [hyper](./hyper)
 * [Silver Searcher](https://github.com/ggreer/the_silver_searcher)
 * [Spectacles](https://www.spectacleapp.com/)
