@@ -25,4 +25,7 @@ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/
 ```
 Then open your projet `subl .`
   
+### other tooling tips/configs
+* [hyper](./hyper)
+* [Sublime & Mac](./tools_plugins.md)
 
