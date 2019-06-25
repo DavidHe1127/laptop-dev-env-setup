@@ -33,3 +33,6 @@ alias myip='ifconfig | grep "inet " | grep -v 127.0.0.1'
 
 # page through commands history
 alias history='history | less'
+
+# docker remove dangling images
+alias rmdimgs='docker rmi -f $(docker images -f "dangling=true" -q)'
