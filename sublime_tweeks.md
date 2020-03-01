@@ -14,6 +14,6 @@ Procedure below is based on OS X.
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "color": [222, 142, 234]
+    "color": [102, 115, 128] // pear green!
   }
 ```
