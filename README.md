@@ -35,4 +35,4 @@ Then open your projet `subl .`
 * [quicklook plugin](https://github.com/sindresorhus/quick-look-plugins)
 * [Homebrew](https://brew.sh/)
 
-### [Sublime tweeks](./sublime_tweek.md)
+### [Sublime tweeks](./sublime_tweeks.md)
