@@ -1,6 +1,7 @@
 Sublime tweeks
 
 - [Change title color of selected item on sidebar](#selected-item-color)
+- [Remove all whitespaces](#remove-all-whitespaces)
 
 
 ### Selected item color
@@ -16,4 +17,10 @@ Procedure below is based on OS X.
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
     "color": [178, 255, 102] // pear green!
   }
+```
+
+### Remove all whitesapces
+Comment this flag out in `Preferences.sublime-settings` to disable whitespaces drawn for indentations. Turn it off when coding in indentation-based language such as `Python`.
+```json
+// "draw_white_space": "all",
 ```
