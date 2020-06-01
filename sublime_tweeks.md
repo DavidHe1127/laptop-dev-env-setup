@@ -2,6 +2,7 @@ Sublime tweeks
 
 - [Change title color of selected item on sidebar](#selected-item-color)
 - [Remove all whitespaces](#remove-all-whitespaces)
+- [Change color scheme of selected theme package](#change-color-theme)
 
 
 ### Selected item color
@@ -24,3 +25,14 @@ Comment this flag out in `Preferences.sublime-settings` to disable whitespaces d
 ```json
 // "draw_white_space": "all",
 ```
+
+Also find and change `guide` in color scheme of selected theme to the desired color for indentation guide line. See below.
+
+### Change color theme
+
+Use [PackageResourceViewer](https://github.com/skuroda/PackageResourceViewer) to choose a color theme you are going to modify. i.e open and modify`ayu-mirage.sublime-color-scheme`.
+
+
+
+
+
