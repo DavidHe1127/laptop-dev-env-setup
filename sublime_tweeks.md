@@ -20,7 +20,7 @@ Procedure below is based on OS X.
 ```
 
 ### Remove all whitesapces
-Comment this flag out in `Preferences.sublime-settings` to disable whitespaces drawn for indentations. Turn it off when coding in indentation-based language such as `Python`.
+Comment this flag out in `Preferences.sublime-settings` to disable whitespaces drawn to show indentations. Turn it off when coding in indentation-based language such as `Python`.
 ```json
 // "draw_white_space": "all",
 ```
