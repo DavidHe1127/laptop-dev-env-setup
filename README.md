@@ -36,3 +36,7 @@ Then open your projet `subl .`
 * [Homebrew](https://brew.sh/)
 
 ### [Sublime tweeks](./sublime_tweeks.md)
+
+### Sublime builds
+
+- [Python](./py3.sublime-build)
