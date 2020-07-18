@@ -34,6 +34,7 @@ Then open your projet `subl .`
 * [Naomi st3 code highlighting](https://packagecontrol.io/packages/Naomi)
 * [quicklook plugin](https://github.com/sindresorhus/quick-look-plugins)
 * [Homebrew](https://brew.sh/)
+* [watch](brew install watch)
 
 ### [Sublime tweeks](./sublime_tweeks.md)
 
