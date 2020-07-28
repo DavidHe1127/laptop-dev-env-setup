@@ -41,4 +41,6 @@ Then open your projet `subl .`
 
 ### Sublime builds
 
+Build path `OS X: ~/Library/Application Support/Sublime Text 3/Packages/User`
+
 - [Python](./py3.sublime-build)
