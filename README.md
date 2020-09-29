@@ -37,7 +37,7 @@ Then open your projet `subl .`
   - watch
   - tree
 
-### [Sublime tweeks](./sublime_tweeks.md)
+### [Sublime Personalisation](./sublime_tweeks.md)
 
 ### Sublime builds
 
