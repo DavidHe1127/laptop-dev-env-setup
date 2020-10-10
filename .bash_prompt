@@ -2,5 +2,5 @@ export CLICOLOR=1
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export TERM=xterm-color
 
-[[ -f ~/.bashrc ]] && source ~/.bashrc
+[[ -f $HOME/.bashrc ]] && source ~/.bashrc
 
