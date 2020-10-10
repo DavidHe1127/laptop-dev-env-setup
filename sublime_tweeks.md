@@ -1,4 +1,4 @@
-Sublime tweeks
+## Sublime Overwrites
 
 - [Change title color of selected item on sidebar](#selected-item-color)
 - [Remove all whitespaces](#remove-all-whitespaces)
