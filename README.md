@@ -6,6 +6,7 @@ This repo provides curated list of tools/configs for you to speed up bootstrappi
   * [bash_profile](./.bash_profile)
   * [bash_prompt](./.bash_prompt)
   * [gitconfig](./.gitconfig)
+  * [bashrc](./.bashrc)
   * [aliases](./.aliases)
 
 ### How to sync sublime text config
