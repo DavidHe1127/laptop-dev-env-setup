@@ -4,7 +4,7 @@
 - [Remove all whitespaces](#remove-all-whitespaces)
 - [Change color scheme of selected theme package](#change-color-theme)
 - [Key bindings](./sublime_key_bindings.json)
-
+- [Settings](./sublime_settings.json)
 
 ### Selected item color
 Procedure below is based on OS X.
