@@ -3,6 +3,7 @@ Sublime tweeks
 - [Change title color of selected item on sidebar](#selected-item-color)
 - [Remove all whitespaces](#remove-all-whitespaces)
 - [Change color scheme of selected theme package](#change-color-theme)
+- [Key bindings](./sublime_key_bindings.json)
 
 
 ### Selected item color
