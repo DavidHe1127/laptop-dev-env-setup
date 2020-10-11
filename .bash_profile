@@ -1,6 +1,3 @@
-# load the shell dotfiles, and then some:
-# * ~/.path can be used to extend `$PATH`.
-# * ~/.extra can be used for other settings you don’t want to commit.
 source $HOME/.bash_prompt
 source $HOME/.aliases
 
@@ -9,6 +6,10 @@ if [ -f "$HOME/.bashrc" ]; then
   . "$HOME/.bashrc"
 fi
 
+# enable git auto-completion
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
+# enable repeated typings
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 export AWS_DEFAULT_PROFILE=qq
