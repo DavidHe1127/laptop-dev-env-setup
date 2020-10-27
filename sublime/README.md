@@ -13,7 +13,7 @@ Build path `OS X: ~/Library/Application Support/Sublime Text 3/Packages/User`
 
 - [Python](./py3.sublime-build)
 
-### Selected item color
+### Sidebar Selected item color
 Procedure below is based on OS X.
 
 1. Find your color theme name
@@ -26,6 +26,12 @@ Procedure below is based on OS X.
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
     "color": [178, 255, 102] // pear green!
   }
+```
+
+### Inactive selection background color
+In `ayu-mirage.sublime-color-theme`, find and change to the line below:
+```json
+"inactive_selection": "#5D6D7E",
 ```
 
 ### Remove all whitesapces
