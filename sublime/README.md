@@ -64,11 +64,9 @@ Open your theme color file through `PackagerResourceViewer`. i.e `ayu-mirage.sub
 "active_guide": "#F7FE2E",
 ```
 You also need to ensure relevant flags are turned on in user preference file.
-
-```
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
+```json
+"indent_guide_options":[
+  "draw_normal",
+  "draw_active"
+],
 ```
