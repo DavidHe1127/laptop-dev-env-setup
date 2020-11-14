@@ -57,3 +57,18 @@ Use [PyYapf - code formatting tool](https://packagecontrol.io/packages/PyYapf%20
 ```json
 "yapf_command": "/usr/local/bin/yapf"
 ```
+
+#### Use remarkable active guide
+Open your theme color file through `PackagerResourceViewer`. i.e `ayu-mirage.sublime-color-scheme` file.
+```
+"active_guide": "#F7FE2E",
+```
+You also need to ensure relevant flags are turned on in user preference file.
+
+```
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+```
