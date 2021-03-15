@@ -70,3 +70,31 @@ You also need to ensure relevant flags are turned on in user preference file.
   "draw_active"
 ],
 ```
+
+#### Sublime linter Config example
+
+User settings
+```json
+{
+    "debug": true,
+    "linters": {
+        "eslint": {
+            "disable": false,
+            "selector": "source.ts, source.js - meta.attribute-with-value",
+            "args": ["--config", "${folder}/.eslintrc.js"],
+            "env": {
+                "PATH": "/usr/local/bin"
+            }
+        },
+        "terraform": {
+            "disable": false,
+            "args": [],
+            "executable": "/usr/local/bin/terraform",
+            "excludes": []
+        }
+    },
+    "paths": {
+        "osx": ["/usr/local/bin/node"]
+    }
+}
+```
