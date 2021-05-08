@@ -25,6 +25,14 @@ To sync configs/pkgs onto a fresh sublime:
 
 Follow [instructions 1 and 2](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion). Step 3 is in the `~/.bash_profile` provided.
 
+### Docker auto-completion
+
+```shell
+cd /usr/local/etc/bash_completion.d
+ln -s /Applications/Docker.app/Contents/Resources/etc/docker.bash-completion
+ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-completion
+```
+
 ### Other tooling tips/configs
 
 - [hyper](./hyper)
