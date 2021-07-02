@@ -25,6 +25,9 @@ To sync configs/pkgs onto a fresh sublime:
 
 Follow [instructions 1 and 2](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion). Step 3 is in the `~/.bash_profile` provided.
 
+### kubectl auto-completion
+[kubectl auto-completion](https://kubernetes.io/docs/tasks/tools/included/optional-kubectl-configs-bash-mac/)
+
 ### Docker auto-completion
 
 ```shell
