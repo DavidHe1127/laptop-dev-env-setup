@@ -58,6 +58,10 @@ Use [PyYapf - code formatting tool](https://packagecontrol.io/packages/PyYapf%20
 "yapf_command": "/usr/local/bin/yapf"
 ```
 
+#### Empower Sublime
+
+[Anaconda](https://packagecontrol.io/packages/Anaconda)
+
 #### Use remarkable active guide
 Open your theme color file through `PackagerResourceViewer`. i.e `ayu-mirage.sublime-color-scheme` file.
 ```
