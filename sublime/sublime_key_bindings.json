@@ -356,7 +356,7 @@
     "keys": ["super+k", "super+m"],
     "command": "side_bar_move"
   },
-  { "keys": ["ctrl+alt+p"], "command": "yapf_selection" },
+  { "keys": ["ctrl+alt+p"], "command": "black" },
   {
     "keys": ["super+alt+down"],
     "command": "typescript_go_to_definition",
