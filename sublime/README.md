@@ -54,6 +54,10 @@ Use [PackageResourceViewer](https://github.com/skuroda/PackageResourceViewer) to
 
 Use [Black](https://packagecontrol.io/packages/python-black).
 
+#### REPL
+
+Use [ptpython](https://github.com/prompt-toolkit/ptpython)
+
 #### Empower Sublime
 
 [Anaconda](https://packagecontrol.io/packages/Anaconda)
