@@ -1,4 +1,4 @@
-# bootstrapping
+# Dev-ready laptop config/setup
 
 This repo provides curated list of tools/configs for you to speed up bootstrapping on a brand new **MAC**
 
