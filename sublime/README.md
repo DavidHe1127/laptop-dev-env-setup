@@ -46,6 +46,17 @@ Also find and change `guide` in color scheme of selected theme to the desired co
 
 Use [PackageResourceViewer](https://github.com/skuroda/PackageResourceViewer) to choose a color theme you are going to modify. i.e open and modify`ayu-mirage.sublime-color-scheme`.
 
+### Customize color theme
+
+Open `Preferences` -> `Customize Color Theme`. For example, change key color in yaml file
+
+```
+    {
+      "name": "Mapping Key Names",
+      "scope": "meta.mapping.key string",
+      "foreground": "mediumturquoise"
+    }
+```
 ---
 
 ### Python Dev Setup
