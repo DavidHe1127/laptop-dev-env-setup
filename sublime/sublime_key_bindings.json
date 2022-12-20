@@ -270,10 +270,6 @@
     }
   },
   {
-    "keys": ["alt+ctrl+f"],
-    "command": "format_javascript"
-  },
-  {
     "keys": ["ctrl+alt+v"],
     "command": "new_view_into_file"
   },
