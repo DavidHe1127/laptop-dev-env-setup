@@ -1,4 +1,18 @@
-## Sublime Setup
+## Sublime Text
+
+- [How to sync config over to your brand new sublime?](#sync-config)
+- [Key bindings](./sublime_key_bindings.json)
+- [Settings](./sublime_settings.json)
+
+### How to sync config over to your brand new sublime?
+
+To sync configs/pkgs into a fresh sublime from a full-blown sublime:
+
+1. Install `Package Control`
+2. Install `ayu` from `Package Control`
+3. Remove `User` folder under `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+4. Clone the entire `User` folder from source Mac
+5. Restart your fresh sublime text
 
 ### Open contents in Sublime from terminal
 
