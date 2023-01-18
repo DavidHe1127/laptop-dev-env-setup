@@ -17,7 +17,7 @@ export AWS_DEFAULT_PROFILE=qq
 export PATH=$PATH:/Users/david.he/Library/Python/3.8/bin
 export PIPENV_VENV_IN_PROJECT=1
 
-# bash completion
+# kubectl auto-complete
 export BASH_COMPLETION_COMPAT_DIR="/usr/local/etc/bash_completion.d"
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 source <(kubectl completion bash)
