@@ -10,7 +10,7 @@ Follow [instructions 1 and 2](https://github.com/bobthecow/git-flow-completion/w
 
 - [hyper](./hyper)
 - [Silver Searcher](https://github.com/ggreer/the_silver_searcher)
-- [Spectacles](https://www.spectacleapp.com/)
+- [Rectangle](https://rectangleapp.com/) 
 - [Prettier](https://prettier.io/docs/en/install.html)
 - [Monosnap](https://monosnap.com/welcome)
 - [Naomi st3 code highlighting](https://packagecontrol.io/packages/Naomi)
