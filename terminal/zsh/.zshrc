@@ -1,3 +1,4 @@
+# ensure oh-my-zsh is installed
 PATH=$PATH:/opt/homebrew/bin
 
 export ZSH="$HOME/.oh-my-zsh"
@@ -11,9 +12,9 @@ parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
-# terminal prompt
-PROMPT='%F{white}%~%f%F{green}%$(parse_git_branch) %f
-%F{red}% $%f '
+source $(brew --prefix nvm)/nvm.sh
+
+export ZSH_THEME="amuse"
 
 plugins=(git sublime)
 
@@ -53,6 +54,6 @@ alias history='history | less'
 # docker remove dangling images
 alias rmdimgs='docker rmi -f $(docker images -f "dangling=true" -q)'
 
+alias python=python3
+
 source $ZSH/oh-my-zsh.sh
-
-
