@@ -1,4 +1,3 @@
-```js
 
 // Future versions of Hyper may add additional config options,
 // which will not automatically be merged into this file.
@@ -154,4 +153,3 @@ module.exports = {
     // 'window:devtools': 'cmd+alt+o',
   },
 };
-```

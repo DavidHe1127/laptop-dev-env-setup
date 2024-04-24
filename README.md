@@ -8,16 +8,13 @@ It contains configs you need to get your macbook ready for development work.
 
 Follow [instructions 1 and 2](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion). Step 3 is in the `~/.bash_profile` provided.
 
-- [hyper](./hyper)
-- [Silver Searcher](https://github.com/ggreer/the_silver_searcher)
+- [Hyper](https://hyper.is/)
 - [Rectangle](https://rectangleapp.com/) 
 - [Prettier](https://prettier.io/docs/en/install.html)
 - [Monosnap](https://monosnap.com/welcome)
 - [Naomi st3 code highlighting](https://packagecontrol.io/packages/Naomi)
 - [quicklook plugin](https://github.com/sindresorhus/quick-look-plugins)
-- [Homebrew and pkgs](https://brew.sh/)
-  - watch
-  - tree
+- [Homebrew](https://brew.sh/) (Check their plugins)
 
 ### Docker auto-completion
 

@@ -16,7 +16,7 @@ source $(brew --prefix nvm)/nvm.sh
 
 export ZSH_THEME="amuse"
 
-plugins=(git sublime)
+plugins=(git sublime aws)
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
