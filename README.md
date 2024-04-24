@@ -31,8 +31,13 @@ ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-comple
 
 ## [K8S](./k8s)
 
+## Non-essential tools
+
+- [Block Chrome ads](https://github.com/ApoorvGit/ad-blocker-chrome-extension)
+
 ## macOS
 
 ### Key repetition
 
 First, run `defaults write -g ApplePressAndHoldEnabled -bool false` then, in the Keyboard settings, Change `Key repeat rate` to `fastest` and `Delay until repeat` to `shortest`.
+
