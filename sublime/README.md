@@ -14,7 +14,7 @@ To sync configs/pkgs into a fresh sublime from a full-blown sublime:
 4. Clone the entire `User` folder from source Mac
 5. Restart your fresh sublime text
 
-### Open contents in Sublime from terminal
+### Open contents in Sublime from terminal (bash only, using sublime plugin when using oh-my-zsh)
 
 ```shell
 sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/

@@ -15,6 +15,7 @@ Follow [instructions 1 and 2](https://github.com/bobthecow/git-flow-completion/w
 - [Naomi st3 code highlighting](https://packagecontrol.io/packages/Naomi)
 - [quicklook plugin](https://github.com/sindresorhus/quick-look-plugins)
 - [Homebrew](https://brew.sh/) (Check their plugins)
+- [oh-my-zsh](https://ohmyz.sh/)
 
 ### Docker auto-completion
 
@@ -28,18 +29,7 @@ ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-comple
 
 ## [VSCode](./vscode)
 
-## K8S
-
-## Config files
-
-Below are a number of files that need to be copied to your home directory.
-
-- [vimrc](./.vimrc)
-- [bash_profile](./.bash_profile)
-- [bash_prompt](./.bash_prompt)
-- [gitconfig](./.gitconfig)
-- [bashrc](./.bashrc)
-- [aliases](./.aliases)
+## [K8S](./k8s)
 
 ## macOS
 
