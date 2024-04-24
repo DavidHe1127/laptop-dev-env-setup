@@ -43,3 +43,9 @@ Below are a number of files that need to be copied to your home directory.
 - [gitconfig](./.gitconfig)
 - [bashrc](./.bashrc)
 - [aliases](./.aliases)
+
+## macOS
+
+### Key repetition
+
+First, run `defaults write -g ApplePressAndHoldEnabled -bool false` then, in the Keyboard settings, Change `Key repeat rate` to `fastest` and `Delay until repeat` to `shortest`.
