@@ -16,6 +16,7 @@ source $(brew --prefix nvm)/nvm.sh
 
 export ZSH_THEME="amuse"
 
+# add $(aws_prompt_info) to your PROMPT env var in the selected theme
 plugins=(git sublime aws)
 
 # Detect which `ls` flavor is in use
