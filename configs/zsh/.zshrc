@@ -1,5 +1,5 @@
 # ensure oh-my-zsh is installed
-PATH=$PATH:/opt/homebrew/bin
+export PATH=$PATH:/opt/homebrew/bin
 
 export ZSH="$HOME/.oh-my-zsh"
 
