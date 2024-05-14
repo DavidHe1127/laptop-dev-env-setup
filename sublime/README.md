@@ -127,3 +127,7 @@ User settings
     }
 }
 ```
+
+#### terraform formatter
+
+https://github.com/p3lim/sublime-terrafmt
