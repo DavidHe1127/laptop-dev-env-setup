@@ -100,7 +100,7 @@ You also need to ensure relevant flags are turned on in user preference file.
 ],
 ```
 
-#### Sublime linter Config example
+### Sublime linter Config example
 
 User settings
 ```json
@@ -128,6 +128,7 @@ User settings
 }
 ```
 
-#### terraform formatter
+### [terraform formatter](https://github.com/p3lim/sublime-terrafmt)
 
-https://github.com/p3lim/sublime-terrafmt
+You might need to change binary location in the settings.
+
