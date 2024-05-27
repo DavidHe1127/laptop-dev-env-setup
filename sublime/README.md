@@ -1,4 +1,4 @@
-## Sublime Text
+# Sublime Text
 
 - [How to sync config over to your brand new sublime?](#sync-config)
 - [Key bindings](./sublime_key_bindings.json)
