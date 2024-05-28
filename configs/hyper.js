@@ -1,4 +1,3 @@
-
 // Future versions of Hyper may add additional config options,
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
@@ -10,10 +9,11 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 14,
+    fontSize: 15,
 
     // font family with optional fallbacks
-    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily:
+      'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -50,7 +50,7 @@ module.exports = {
     selectionColor: 'rgba(248,28,229,0.3)',
 
     // border color (window, tabs)
-    borderColor: '#333',
+    borderColor: 'green',
 
     // custom CSS to embed in the main window
     css: '',
@@ -130,6 +130,10 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+    hyperBorder: {
+      borderColors: ['#fc1da7', '#fba506'],
+      borderWidth: '4px',
+    },
   },
 
   // a list of plugins to fetch and install from npm
@@ -138,9 +142,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    "hyper-pane"
-  ],
+  plugins: ['hyper-pane', 'hyperborder'],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
@@ -148,7 +150,7 @@ module.exports = {
   localPlugins: [],
 
   keymaps: {
-    "editor:deleteNextWord": "alt+del"
+    'editor:deleteNextWord': 'alt+del',
     // Example
     // 'window:devtools': 'cmd+alt+o',
   },
