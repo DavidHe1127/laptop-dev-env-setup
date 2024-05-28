@@ -3,6 +3,7 @@
 - [How to sync config over to your brand new sublime?](#sync-config)
 - [Key bindings](./sublime_key_bindings.json)
 - [Settings](./sublime_settings.json)
+- [LSP]
 
 ### How to sync config over to your brand new sublime?
 
@@ -13,13 +14,6 @@ To sync configs/pkgs into a fresh sublime from a full-blown sublime:
 3. Remove `User` folder under `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
 4. Clone the entire `User` folder from source Mac
 5. Restart your fresh sublime text
-
-### Open contents in Sublime from terminal (bash only, using sublime plugin when using oh-my-zsh)
-
-```shell
-sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/
-```
-Then open your projet `subl .`
 
 ### Sublime builds
 
@@ -132,3 +126,6 @@ User settings
 
 You might need to change binary location in the settings.
 
+### LSP
+
+When seeing Node cannot be found issue, try to start sublime from terminal and make sure binary path is set correctly in your `.zshrc`.
