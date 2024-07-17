@@ -352,6 +352,10 @@
     "keys": ["super+k", "super+m"],
     "command": "side_bar_move"
   },
+  {
+    "keys": ["super+k", "super+d"],
+    "command": "side_bar_duplicate"
+  },  
   { "keys": ["ctrl+alt+p"], "command": "black" },
   {
     "keys": ["super+alt+down"],
