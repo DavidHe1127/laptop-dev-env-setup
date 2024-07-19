@@ -17,3 +17,6 @@
 [core]
 [push]
     default = simple
+
+[pager]
+    branch = false
