@@ -17,6 +17,11 @@ Follow [instructions 1 and 2](https://github.com/bobthecow/git-flow-completion/w
 - [Homebrew](https://brew.sh/) (Check their plugins)
 - [oh-my-zsh](https://ohmyz.sh/)
 
+```mermaid
+flowchart LR
+  A --> B
+```
+
 ### Docker auto-completion
 
 ```shell
