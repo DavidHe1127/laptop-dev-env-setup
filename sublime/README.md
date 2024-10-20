@@ -22,6 +22,7 @@ Build path `OS X: ~/Library/Application Support/Sublime Text 3/Packages/User`
 - [Python](./py3.sublime-build)
 
 ### Sidebar Selected item color
+
 Procedure below is based on OS X.
 
 1. Find your color theme name
@@ -37,12 +38,14 @@ Procedure below is based on OS X.
 ```
 
 ### Inactive selection background color
+
 In `ayu-mirage.sublime-color-theme`, find and change to the line below:
 ```json
 "inactive_selection": "#5D6D7E",
 ```
 
 ### Remove all whitesapces
+
 Comment this flag out in `Preferences.sublime-settings` to disable whitespaces drawn to show indentations. Turn it off when coding in indentation-based language such as `Python`.
 ```json
 // "draw_white_space": "all",
@@ -129,3 +132,8 @@ You might need to change binary location in the settings.
 ### LSP
 
 When seeing Node cannot be found issue, try to start sublime from terminal and make sure binary path is set correctly in your `.zshrc`.
+
+### Commands shortcut
+
+To see the command code you need to add shortcut for, type in `sublime.log_commands(True)` in the console to let it print out its name.
+
