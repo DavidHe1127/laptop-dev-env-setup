@@ -1,0 +1,19 @@
+SSOConfig:
+    Default:
+        SSORegion: ap-southeast-2
+        StartUrl: https://d-xxxxxxx.awsapps.com/start
+        # open auth page using default browser
+        AuthUrlAction: open
+ConsoleDuration: 720
+CacheRefresh: 168
+LogLevel: error
+HistoryLimit: 10
+HistoryMinutes: 1440
+ProfileFormat: "{{ .AccountAlias }}:{{ .RoleName }}"
+FullTextSearch: true
+DefaultRegion: ap-southeast-2
+# use granted container plugin to open aws env in a container
+UrlAction: granted-containers
+UrlExecCommand:
+    - /Applications/Firefox.app/Contents/MacOS/firefox
+    - "%s"
