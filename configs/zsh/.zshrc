@@ -58,3 +58,13 @@ alias rmdimgs='docker rmi -f $(docker images -f "dangling=true" -q)'
 alias python=python3
 
 source $ZSH/oh-my-zsh.sh
+
+# AWS SSO
+export AWS_DEFAULT_SSO_START_URL=https://d-97670afab1.awsapps.com/start
+export AWS_DEFAULT_SSO_REGION=ap-southeast-2
+
+# aws-sso cli auto-complete
+autoload -Uz +X compinit && compinit
+autoload -Uz +X bashcompinit && bashcompinit
+
+source ~/.config/aws-sso/.aws-sso-helpers
