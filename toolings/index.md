@@ -8,9 +8,9 @@ Opens a file in the browser.
 git open --file path/to/file
 ```
 
-Bonus: you can go to next level by opening the file from your sublime. Drop this script in `/Users/davidhe/Library/Application\ Support/Sublime\ Text/Packages/User/git_open.py`.
+Bonus: you can go to next level by opening a specific line of a file from your sublime. Drop this script in `/Users/davidhe/Library/Application\ Support/Sublime\ Text/Packages/User/git_open.py`.
 
-```
+```py
 import sublime
 import sublime_plugin
 import subprocess
@@ -25,10 +25,13 @@ class GitOpenCommand(sublime_plugin.TextCommand):
 
         file_dir = os.path.dirname(file_path)
 
+        cursor_position = self.view.sel()[0].begin()
+        line_number = self.view.rowcol(cursor_position)[0] + 1
+
         try:
             # Run the command
             result = subprocess.run(
-                ["git", "open", "--file", file_path],
+                ["git", "open", "--file", file_path, "--suffix", f"#L{line_number}"],
                 cwd=file_dir,
                 check=True,
                 capture_output=True,
@@ -40,6 +43,7 @@ class GitOpenCommand(sublime_plugin.TextCommand):
             sublime.error_message(error_msg)
         except FileNotFoundError:
             sublime.error_message("`git open` command not found. Ensure it is installed and in your PATH.")
+
 ```
 
 Then add a shortcut to your key bindings.
