@@ -14,6 +14,7 @@ Bonus: you can go to next level by opening the file from your sublime. Drop this
 import sublime
 import sublime_plugin
 import subprocess
+import os
 
 class GitOpenCommand(sublime_plugin.TextCommand):
     def run(self, edit):
