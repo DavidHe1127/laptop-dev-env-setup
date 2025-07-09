@@ -3,6 +3,7 @@
 - [How to sync config over to your brand new sublime?](#sync-config)
 - [Key bindings](./sublime_key_bindings.json)
 - [Settings](./sublime_settings.json)
+- [Miscel](#miscel)
 - [LSP]
 
 ### How to sync config over to your brand new sublime?
@@ -14,6 +15,10 @@ To sync configs/pkgs into a fresh sublime from a full-blown sublime:
 3. Remove `User` folder under `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
 4. Clone the entire `User` folder from source Mac
 5. Restart your fresh sublime text
+
+### Miscel
+
+`echo 'export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"' >> ~/.zprofile`
 
 ### Sublime builds
 
