@@ -18,6 +18,8 @@ To sync configs/pkgs into a fresh sublime from a full-blown sublime:
 
 ### Miscel
 
+#### subl binary
+
 `echo 'export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"' >> ~/.zprofile`
 
 ### Sublime builds
