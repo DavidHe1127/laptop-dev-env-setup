@@ -33,7 +33,7 @@ Build path `OS X: ~/Library/Application Support/Sublime Text 3/Packages/User`
 Procedure below is based on OS X.
 
 1. Find your color theme name
-2. Go to `/Users/P782199/Library/Application Support/Sublime Text 3/Packages/User`
+2. Go to `/Users/david/Library/Application Support/Sublime Text 3/Packages/User`
 3. Find `<THEME>.sublime-theme` i.e `ayu-mirage.sublime-theme`
 4. Change color to your favour
 ```json
